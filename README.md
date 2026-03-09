@@ -174,7 +174,7 @@ Altair slc minimize cost when purchasing interchangeable parts from multiple com
     direction <- c(">=", ">=", ">=")
 
     # Define the right-hand side of the constraints
-    rhs <- c(1800, 2500, 2000)
+      rhs <- requirements$requirement
 
     # Solve the linear programming problem
     solution <- lp("min", cost, constraints, direction, rhs)

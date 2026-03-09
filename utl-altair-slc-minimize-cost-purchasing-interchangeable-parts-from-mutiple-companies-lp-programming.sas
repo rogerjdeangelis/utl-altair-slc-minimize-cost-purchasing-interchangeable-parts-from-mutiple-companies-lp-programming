@@ -172,7 +172,7 @@ constraints <- as.matrix(requirements[,2:4]);
 direction <- c(">=", ">=", ">=")
 
 # Define the right-hand side of the constraints
-rhs <- c(1800, 2500, 2000)
+  rhs <- requirements$requirement
 
 # Solve the linear programming problem
 solution <- lp("min", cost, constraints, direction, rhs)

@@ -1,0 +1,14 @@
+                                                   Requirements table                                                   
+
+  Obs  cost  wesco  graybar  ced  requirement      parts
+    1   200     11       20   33         1800  batteries
+    2   300     23       30   20         2500  switches
+    3   400     32       20   15         2000  motors
+
+                                    minimum cost = 19*200 + 62*300 + 11*400 = 26800                                     
+
+  Obs  cost  wesco  graybar  ced  requirement      parts  computed_number
+    1   200     11       20   33        1,800  batteries            1,812
+    2   300     23       30   20        2,500  switches             2,517
+    3   400     32       20   15        2,000  motors               2,013
+
